@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "LAMPECUTS ODIN LAMPE",
+    "city": "Alta",
+    "category": "other",
+    "phone": "+4790092994",
+    "email": "odinlampe@gmail.com",
+    "address": "Markedsgata 12, 9510 Alta"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
+    "variant": "minimal",
+    "eyebrow": "Profesjonell Frisør · Alta",
+    "headline": "LampeCuts",
+    "headlineAccent": "Din Stil",
+    "subheadline": "Opplev førsteklasses hårklipp og styling i hjertet av Alta — skreddersydd til din personlige stil og hverdag.",
     "ctaText": "Bestill Time",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "3000+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Dedikasjon"
+      },
+      {
+        "value": "6",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Bestill Time Nå",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Herreklipp",
+        "desc": "Klassisk eller moderne herreklipp tilpasset din ansiktsform og personlige stil.",
+        "icon": "Scissors",
+        "price": "fra 350 kr"
+      },
+      {
+        "name": "Skjegg & Trimming",
+        "desc": "Profesjonell skjeggtrimming og forming for et velstelt og maskulint uttrykk.",
+        "icon": "Crown",
+        "price": "fra 200 kr"
+      },
+      {
+        "name": "Styling & Rådgivning",
+        "desc": "Personlig rådgivning om produkter og styling som holder looken din fresh mellom besøkene.",
+        "icon": "Sparkles",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Historien Bak LampeCuts",
+    "body": "LampeCuts ble grunnlagt av Odin Lampe med en enkel visjon — å gi kundene i Alta en førsteklasses frisøropplevelse i avslappede omgivelser. Med lidenskap for håndverket og et skarpt øye for detaljer har vi bygget opp en lojal kundebase som setter pris på kvalitet og personlig service. Besøk oss i Markedsgata og opplev forskjellen selv.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "3000+",
+      "label": "Klipp utført"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Kundetilfredshet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et utvalg av klipp og styles vi har skapt for fornøyde kunder i Alta."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Lars Erik Hansen",
+        "role": "Fast kunde siden 2021",
+        "text": "Beste frisøren i Alta, uten tvil. Odin tar seg alltid god tid og leverer konsekvent høy kvalitet hver eneste gang.",
+        "rating": 5
+      },
+      {
+        "name": "Morten Nilsen",
+        "role": "Fast kunde siden 2022",
+        "text": "Avslappet stemning og fantastisk resultat. Fikk akkurat den looken jeg var ute etter, pluss gode tips om styling hjemme.",
+        "rating": 5
+      },
+      {
+        "name": "Thomas Kristiansen",
+        "role": "Ny kunde",
+        "text": "Ble anbefalt LampeCuts av en kompis, og nå forstår jeg hvorfor. Profesjonelt, hyggelig og resultatet snakker for seg selv.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Har du spørsmål eller ønsker å bestille time? Ta kontakt med oss — vi hjelper deg gjerne."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
